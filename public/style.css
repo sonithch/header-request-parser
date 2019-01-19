@@ -1,0 +1,67 @@
+/****** Main Styling ******/
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Roboto|Thasadith');
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #222;
+	background-color: #FaFaFa;
+	text-align: center;
+	line-height: 1.4em;
+}
+
+.container {
+	padding: 0;
+	margin-top: 40px;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+.user-stories {
+  position: relative;
+  text-align: justify;
+  max-width: 700px;
+  margin: 15px auto;
+}
+code {
+  font-family: monospace;
+  padding: 2px;
+  color: black;
+  background-color: #fff;
+}
+ol {
+	list-style-position: outside;
+}
+ul {
+	list-style-type: none;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+.user-stories li {
+  margin-bottom: 1em;
+}
+
+a {
+	color: #2574A9;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;left: 0;width: 100%;
+  text-align: left;
+  background-color: black;
+  color: white;
+  margin-top: 48px;
+  overflow: hidden;
+}
+.credit{
+  font-family: 'Thasadith', sans-serif;
+  font-size: 24px;
+}
+.author{
+  font-family: 'Major Mono Display', monospace;
+  font-size: 36px;
+}
